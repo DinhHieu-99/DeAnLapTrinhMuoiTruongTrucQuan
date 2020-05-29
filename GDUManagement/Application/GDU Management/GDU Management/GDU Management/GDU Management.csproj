@@ -193,8 +193,8 @@
       <LastGenOutput>GDUDataConnections.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="Properties\DataSources\GDU_Management.Model.GiangVien.datasource" />
     <None Include="Properties\DataSources\GDU_Management.Model.Khoa.datasource" />
+    <None Include="Properties\DataSources\GDU_Management.Model.KhoaHoc.datasource" />
     <None Include="Properties\DataSources\GDU_Management.Model.NganhHoc.datasource" />
     <None Include="Properties\DataSources\GDU_Management.Model.SinhVien.datasource" />
     <None Include="Properties\Settings.settings">

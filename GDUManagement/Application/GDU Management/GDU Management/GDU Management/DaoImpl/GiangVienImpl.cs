@@ -11,21 +11,8 @@ namespace GDU_Management.DaoImpl
     class GiangVienImpl : IDaoGiangVien
     {
         //tao ket noi database
-        GDUDataConnectionsDataContext db;
+        GDUDataConnectionsDataContext db = new GDUDataConnectionsDataContext();
         List<GiangVien> giangVien;
-
-        public GiangVienImpl()
-        {
-            db = new GDUDataConnectionsDataContext();
-            using (db)
-            {
-                var giangViens = from x in db.GiangViens select x;
-                db.DeferredLoadingEnabled = true;
-                giangVien = giangViens.ToList();
-            }
-        }
-
-
         public GiangVien CreateGiangVien(GiangVien giangVien)
         {
             //code content
@@ -40,10 +27,7 @@ namespace GDU_Management.DaoImpl
         public List<GiangVien> GetAllGiangVien()
         {
             //code content
-            db = new GDUDataConnectionsDataContext();
-            var gv = from x in db.GiangViens select x;
-            giangVien = gv.ToList();
-            return giangVien;
+            return null;
         }
 
         public void UpdateGiangVien(GiangVien giangVien)
