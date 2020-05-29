@@ -280,6 +280,7 @@ namespace GDU_Management
                 }
                 else
                 {
+                    
                     khoaService.DeleteKhoa(maKhoa);
                     txtMaKhoa.Text = "";
                     txtTenKhoa.Text = "";
