@@ -19,7 +19,7 @@ namespace GDU_Management.Service
             return monHocIDao.GetAllMonHoc();
         }
         //thêm mới một môn học
-        public SinhVien CreateMonHoc(MonHoc monHoc)
+        public MonHoc CreateMonHoc(MonHoc monHoc)
         {
             return monHocIDao.CreateMonHoc(monHoc);
         }

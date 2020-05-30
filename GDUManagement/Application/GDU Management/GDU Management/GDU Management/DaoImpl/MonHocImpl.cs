@@ -12,28 +12,34 @@ namespace GDU_Management.DaoImpl
     {
         //tao ket noi database
         GDUDataConnectionsDataContext db = new GDUDataConnectionsDataContext();
-        List<MonHoc> monHoc;
+        List<MonHoc> listmonHoc;
 
-        public SinhVien CreateMonHoc(MonHoc monHoc)
+        public MonHoc CreateMonHoc(MonHoc monHoc)
         {
-            //code content
-            return null;
+            db = new GDUDataConnectionsDataContext();
+            MonHoc mhoc = new MonHoc();
+            mhoc = monHoc;
+            db.MonHocs.InsertOnSubmit(mhoc);
+            db.SubmitChanges();
+            return mhoc;
         }
 
         public void DeleteMonHoc(string maMonHoc)
         {
-            //code content
+            throw new NotImplementedException();
         }
 
         public List<MonHoc> GetAllMonHoc()
         {
-            //code content
-            return null;
+            db = new GDUDataConnectionsDataContext();
+            var mh = from x in db.MonHocs select x;
+            listmonHoc = mh.ToList();
+            return listmonHoc;
         }
 
         public void UpdateMonHoc(MonHoc monHoc)
         {
-           //code content
+            throw new NotImplementedException();
         }
     }
 }
