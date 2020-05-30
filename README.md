@@ -1,4 +1,4 @@
-# Lập Trình Môi Trường Trực Quan - GDU
+﻿# Lập Trình Môi Trường Trực Quan - GDU
 
 Khóa: **<u>11</u>**
 
@@ -10,7 +10,7 @@ Lớp: ***<u>11DHPM</u>***
 
 **<u>Nguyễn Lan  -  1731103099</u>**
 
-**<u>Nguyễn Trọng Dương  -  1731103080</u>**
+**<u>Nguyễn Trọng Dương wibu  -  1731103080</u>**
 
 **<u>Lê Anh Kiệt  -  1731102047</u>**
 
