@@ -10,7 +10,7 @@ namespace GDU_Management.IDao
     interface IDaoMonHoc
     {
         List<MonHoc> GetAllMonHoc();
-        SinhVien CreateMonHoc(MonHoc monHoc);
+        MonHoc CreateMonHoc(MonHoc monHoc);
         void DeleteMonHoc(string maMonHoc);
         void UpdateMonHoc(MonHoc monHoc);
     }

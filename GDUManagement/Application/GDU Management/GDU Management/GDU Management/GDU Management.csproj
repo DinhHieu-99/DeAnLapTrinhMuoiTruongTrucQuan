@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>GDU_Management</RootNamespace>
     <AssemblyName>GDU Management</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -193,8 +194,9 @@
       <LastGenOutput>GDUDataConnections.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
+    <None Include="Properties\DataSources\GDU_Management.Model.DiemMonHoc.datasource" />
     <None Include="Properties\DataSources\GDU_Management.Model.Khoa.datasource" />
-    <None Include="Properties\DataSources\GDU_Management.Model.KhoaHoc.datasource" />
+    <None Include="Properties\DataSources\GDU_Management.Model.MonHoc1.datasource" />
     <None Include="Properties\DataSources\GDU_Management.Model.NganhHoc.datasource" />
     <None Include="Properties\DataSources\GDU_Management.Model.SinhVien.datasource" />
     <None Include="Properties\Settings.settings">

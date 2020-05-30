@@ -18,29 +18,20 @@ namespace GDU_Management.Service
         {
             return khoaIDao.GetAllKhoa();
         }
-
         //tạo khoa
         public Khoa CreateKhoa(Khoa khoa)
         {
             return khoaIDao.CreateKhoa(khoa);
         }
-
         //xóa khoa
         public void DeleteKhoa(string maKhoa)
         {
             khoaIDao.DeleteKhoa(maKhoa);
         }
-
         //cập nhật khoa
         public void UpdateKhoa(Khoa khoa)
         {
             khoaIDao.UpdateKhoa(khoa);
-        }
-
-        //lấy danh sách khoa theo mã khoa
-        public List<Khoa> GetKhoaByMaKhoa(string maKhoa)
-        {
-            return khoaIDao.GetKhoaByMaKhoa(maKhoa);
         }
     }
 }

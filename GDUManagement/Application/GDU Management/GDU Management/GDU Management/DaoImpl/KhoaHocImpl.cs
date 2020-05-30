@@ -12,8 +12,8 @@ namespace GDU_Management.DaoImpl
     class KhoaHocImpl : IDaoKhoaHoc
     {
         //tạo kết nối database 
-        GDUDataConnectionsDataContext db;
-        List<KhoaHoc> listkhoaHoc;
+        GDUDataConnectionsDataContext db = new GDUDataConnectionsDataContext();
+        List<KhoaHoc> khoaHoc;
 
         public KhoaHoc CreateKhoaHoc(KhoaHoc khoaHoc)
         {
@@ -28,10 +28,8 @@ namespace GDU_Management.DaoImpl
 
         public List<KhoaHoc> GetAllKhoaHoc()
         {
-            db = new GDUDataConnectionsDataContext();
-            var kh = from x in db.KhoaHocs select x;
-            listkhoaHoc = kh.ToList();
-            return listkhoaHoc; ;
+            //code content
+            return null;
         }
 
         public void UpdateKhoaHoc(KhoaHoc khoaHoc)

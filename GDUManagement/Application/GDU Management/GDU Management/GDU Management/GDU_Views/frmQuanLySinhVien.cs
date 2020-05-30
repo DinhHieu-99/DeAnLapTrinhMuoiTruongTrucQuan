@@ -32,7 +32,6 @@ namespace GDU_Management
         SinhVienService sinhVienService = new SinhVienService();
         KhoaService khoaService = new KhoaService();
         KhoaHocService khoaHocService = new KhoaHocService();
-        NganhHocService nganhHocService = new NganhHocService();
 
       //------------------------DS HÀM PUBLIC---------------------//
 
@@ -68,16 +67,9 @@ namespace GDU_Management
             dgvDanhSachKhoa.DataSource = khoaService.GetAllKhoa();
         }
 
-        //load danh sách khóa lên datagridview
-        public void LoadDanhSachKhoaHocToDatagridview()
-        {
-            dgvDanhSachKhoaHoc.DataSource = khoaHocService.GetAllKhoaHoc();
-        }
-
         //hàm show dữ liệu dgv lên textbox
         public void ShowDataTuDataGridViewToTextBox()
         {
-            //Tab Khoa & Nganh
             txtMaKhoa.DataBindings.Clear();
             txtMaKhoa.DataBindings.Add("text", dgvDanhSachKhoa.DataSource, "MaKhoa");
             txtTenKhoa.DataBindings.Clear();
@@ -87,35 +79,6 @@ namespace GDU_Management
             lblMaKhoa.DataBindings.Add("text", dgvDanhSachKhoa.DataSource, "MaKhoa");
             lblTenKhoa.DataBindings.Clear();
             lblTenKhoa.DataBindings.Add("text", dgvDanhSachKhoa.DataSource, "TenKhoa");
-
-            //Tab Khóa & Lớp
-            txtMaKhoaHoc.DataBindings.Clear();
-            txtMaKhoaHoc.DataBindings.Add("text", dgvDanhSachKhoaHoc.DataSource, "MaKhoaHoc");
-            txtTenKhoaHoc.DataBindings.Clear();
-            txtTenKhoaHoc.DataBindings.Add("text", dgvDanhSachKhoaHoc.DataSource, "TenKhoaHoc");
-            txtNienKhoa.DataBindings.Clear();
-            txtNienKhoa.DataBindings.Add("text", dgvDanhSachKhoaHoc.DataSource, "NienKhoa");
-
-            //  lblMaKhoaHocKL.DataBindings.Clear();
-            //lblMaKhoaHocKL.DataBindings.Add("text", dgvDanhSachKhoaHoc.DataSource, "MaKhoaHoc");
-
-            // string maKhoa = cboChonKhoa.SelectedValue.ToString();
-
-        }
-
-        //show dữ liệu lên combox
-        public void LoadDataToCombox()
-        {
-            cboChonKhoa.DataSource = khoaService.GetAllKhoa();
-            cboChonKhoa.DisplayMember = "TenKhoa";
-            cboChonKhoa.ValueMember = "MaKhoa";
-        }
-
-        public void LoadDuLieuNganh(string maKhoa)
-        {
-            maKhoa = cboChonKhoa.SelectedItem.ToString();
-            cboChonNganh.DisplayMember = "TenNganh";
-            cboChonNganh.DataSource = nganhHocService.GetNganhHocByKHOA(maKhoa);
         }
 
         //hàm check data 
@@ -200,9 +163,8 @@ namespace GDU_Management
         {
             LoadDanhSachSinhVienToDatagridview();
             LoadDanhSachKhoaToDatagridview();
-            LoadDanhSachKhoaHocToDatagridview();
             ShowDataTuDataGridViewToTextBox();
-            LoadDataToCombox();
+
         }
 
         private void label8_Click(object sender, EventArgs e)
@@ -337,29 +299,6 @@ namespace GDU_Management
             btnUpdateKhoa.Enabled = true;
             btnDeleteKhoa.Enabled = true;
             ShowDataTuDataGridViewToTextBox();
-        }
-
-        private void cboChonKhoa_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-            string maKhoa = cboChonKhoa.SelectedValue.ToString();
-            cboChonNganh.DataSource = nganhHocService.GetNganhHocByKHOA(maKhoa);
-            cboChonNganh.DisplayMember = "TenNganh";
-        }
-
-        private void cboChonNganh_SelectedIndexChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void btnNewKhoaHoc_Click(object sender, EventArgs e)
-        {
-            txtMaKhoaHoc.Clear();
-            txtTenKhoaHoc.Clear();
-            txtNienKhoa.Clear();
-
-            btnSaveKhoaHoc.Enabled = true;
-            btnUpdateKhoaHoc.Enabled = false;
-            btnDeleteKhoaHoc.Enabled = false;
         }
     }
 }

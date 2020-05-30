@@ -18,3 +18,41 @@ D:\GDU\Hoc_Ki_7\LapTrinhMoiTruongTrucQuan\DeAnCuoiKi\App\GDUManager\GDU Manageme
 D:\GDU\Hoc_Ki_7\LapTrinhMoiTruongTrucQuan\DeAnCuoiKi\App\GDUManager\GDU Management\GDU Management\obj\Debug\GDU_Management.frmCheckAdmin.resources
 D:\GDU\Hoc_Ki_7\LapTrinhMoiTruongTrucQuan\DeAnCuoiKi\App\GDUManager\GDU Management\GDU Management\obj\Debug\GDU_Management.frmCheckAdmin2.resources
 D:\GDU\Hoc_Ki_7\LapTrinhMoiTruongTrucQuan\DeAnCuoiKi\App\GDUManager\GDU Management\GDU Management\obj\Debug\GDU_Management.GDU_View.frmAccount.resources
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\bin\Debug\GDU Management.exe.config
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\bin\Debug\GDU Management.exe
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\bin\Debug\GDU Management.pdb
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU Management.csprojResolveAssemblyReference.cache
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.GDU_View.frmAccount.resources
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmCheckAdmin.resources
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmCheckAdmin2.resources
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmDanhSachLop.resources
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmDanhSachNganh.resources
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmDiemAndMonHoc.resources
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmGiaoVienAndTKB.resources
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmPhanCongCongViec.resources
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmQuanLySinhVien.resources
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.GDUManagement.resources
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmLogin.resources
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.Properties.Resources.resources
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU Management.csproj.GenerateResource.Cache
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU Management.exe
+C:\Users\Hieu\Documents\Visual Studio 2017\Projects\MTTQ\DeAnLapTrinhMuoiTruongTrucQuan-master\GDUManagement\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU Management.pdb
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\bin\Debug\GDU Management.exe.config
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\bin\Debug\GDU Management.exe
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\bin\Debug\GDU Management.pdb
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU Management.csprojResolveAssemblyReference.cache
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.GDU_View.frmAccount.resources
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmCheckAdmin.resources
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmCheckAdmin2.resources
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmDanhSachLop.resources
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmDanhSachNganh.resources
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmDiemAndMonHoc.resources
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmGiaoVienAndTKB.resources
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmPhanCongCongViec.resources
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmQuanLySinhVien.resources
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.GDUManagement.resources
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.frmLogin.resources
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU_Management.Properties.Resources.resources
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU Management.csproj.GenerateResource.Cache
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU Management.exe
+D:\DoAnLTMTTQ\DeAn\Application\GDU Management\GDU Management\GDU Management\obj\Debug\GDU Management.pdb

@@ -1,11 +1,11 @@
 ﻿using GDU_Management.DaoImpl;
 using GDU_Management.IDao;
+using GDU_Management.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using GDU_Management.Model; 
+using System.Threading.Tasks; 
 
 namespace GDU_Management.Service
 {
@@ -19,7 +19,7 @@ namespace GDU_Management.Service
             return monHocIDao.GetAllMonHoc();
         }
         //thêm mới một môn học
-        public SinhVien CreateMonHoc(MonHoc monHoc)
+        public MonHoc  CreateMonHoc(MonHoc monHoc)
         {
             return monHocIDao.CreateMonHoc(monHoc);
         }

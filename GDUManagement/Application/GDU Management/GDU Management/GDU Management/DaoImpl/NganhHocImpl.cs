@@ -81,9 +81,11 @@ namespace GDU_Management.DaoImpl
         List<NganhHoc> IDaoNganhHoc.GetNganhHocByKHOA(string maKhoa)
         {
             db = new GDUDataConnectionsDataContext();
-            List<NganhHoc> nganhHoc = db.NganhHocs.Where(p => p.MaKhoa.Equals(maKhoa)).ToList();
-            nganhHocs = new List<NganhHoc>();
-            nganhHocs= nganhHoc;
+            var nganhHoc  =  from x in db.NganhHocs where x.MaKhoa == maKhoa select x;
+            nganhHocs = nganhHoc.ToList();
+            //db = new GDUDataConnectionsDataContext();
+            //var k = from x in db.Khoas select x;
+            //khoas = k.ToList
             return nganhHocs;
         }
     }
