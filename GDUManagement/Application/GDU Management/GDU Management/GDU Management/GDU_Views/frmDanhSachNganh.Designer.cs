@@ -241,7 +241,7 @@
             // btnUpdateNganh
             // 
             this.btnUpdateNganh.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btnUpdateNganh.Image = global::GDU_Management.Properties.Resources.icons_update;
+            this.btnUpdateNganh.Image = global::GDU_Management.Properties.Resources.icons_update_30;
             this.btnUpdateNganh.Location = new System.Drawing.Point(294, 3);
             this.btnUpdateNganh.Name = "btnUpdateNganh";
             this.btnUpdateNganh.Size = new System.Drawing.Size(140, 45);

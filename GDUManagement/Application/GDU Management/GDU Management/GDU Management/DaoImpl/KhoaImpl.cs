@@ -27,8 +27,7 @@ namespace GDU_Management.DaoImpl
             }
         }
 
-
-        //tạo một KHOA mới
+        //tạo một khoa mới
         public Khoa CreateKhoa(Khoa khoa)
         {
             db = new GDUDataConnectionsDataContext();
@@ -39,6 +38,7 @@ namespace GDU_Management.DaoImpl
             return kh;
         }
 
+        //xóa khoa
         public void DeleteKhoa(string maKhoa)
         {
             db = new GDUDataConnectionsDataContext();
@@ -48,6 +48,7 @@ namespace GDU_Management.DaoImpl
             db.SubmitChanges();
         }
 
+        //lấy tất cả danh sách khoa
         public List<Khoa> GetAllKhoa()
         {
             db = new GDUDataConnectionsDataContext();
@@ -56,6 +57,16 @@ namespace GDU_Management.DaoImpl
             return khoas;
         }
 
+        //lấy danh sách khoa theo mã khoa
+        public List<Khoa> GetKhoaByMaKhoa(string maKhoa)
+        {
+            db = new GDUDataConnectionsDataContext();
+            var k = from x in db.Khoas where x.MaKhoa == maKhoa select x;
+            khoas = k.ToList();
+            return khoas;
+        }
+
+        //update khoa
         public void UpdateKhoa(Khoa khoa)
         {
             db = new GDUDataConnectionsDataContext();

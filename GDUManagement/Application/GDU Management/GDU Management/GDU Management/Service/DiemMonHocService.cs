@@ -31,7 +31,6 @@ namespace GDU_Management.Service
             diemMonHocIDao.DeleteDiemMonHoc(maSV,maDiemMonHoc);
         }
 
-
         //cập nhật điểm môn học
         public void UpdateDiemMonHoc(DiemMonHoc diemMonHoc)
         {

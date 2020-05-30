@@ -26,9 +26,8 @@ namespace GDU_Management.DaoImpl
 
         public List<DiemMonHoc> GetAllDiemMonHoc()
         {
-            var diemMH = from x in db.DiemMonHocs select x;
-            diemMonHoc = diemMH.ToList();
-            return diemMonHoc;
+            //code content
+            return null;
         }
 
         public void UpdateDiemMonHoc(DiemMonHoc diemMonHoc)
