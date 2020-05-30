@@ -302,7 +302,7 @@ namespace GDU_Management
             kh.MaKhoa = txtMaKhoa.Text;
             kh.TenKhoa = txtTenKhoa.Text;
             khoaService.UpdateKhoa(kh);
-            MessageBox.Show("Cập nhật thông tin '"+txtMaKhoa+"' Thành Công", "THÔNG BÁO", MessageBoxButtons.OK,MessageBoxIcon.Information);
+            MessageBox.Show("Cập nhật thông tin '"+txtMaKhoa.Text+"' Thành Công", "THÔNG BÁO", MessageBoxButtons.OK,MessageBoxIcon.Information);
             LoadDanhSachKhoaToDatagridview();
         }
 

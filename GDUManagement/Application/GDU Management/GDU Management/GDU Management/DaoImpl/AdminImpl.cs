@@ -11,6 +11,11 @@ namespace GDU_Management.DaoImpl
 {
     class AdminImpl : IDaoAdmin
     {
+        /// <summary>
+        /// dit con me chung m
+        /// </summary>
+
+
         //tao ket noi database
         GDUDataConnectionsDataContext db = new GDUDataConnectionsDataContext();
         List<Admin> ad;
