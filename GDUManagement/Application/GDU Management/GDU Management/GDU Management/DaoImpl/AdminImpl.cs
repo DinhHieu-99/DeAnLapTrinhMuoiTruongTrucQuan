@@ -11,9 +11,7 @@ namespace GDU_Management.DaoImpl
 {
     class AdminImpl : IDaoAdmin
     {
-        /// <summary>
-        /// dit con me chung m
-        /// </summary>
+      //dkm con me wibu 
 
 
         //tao ket noi database
