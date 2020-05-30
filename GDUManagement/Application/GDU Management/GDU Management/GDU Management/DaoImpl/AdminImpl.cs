@@ -12,6 +12,7 @@ namespace GDU_Management.DaoImpl
     class AdminImpl : IDaoAdmin
     {
       //dkm con me wibu 
+      //dkm ba que
 
 
         //tao ket noi database
